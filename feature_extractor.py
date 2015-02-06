@@ -3,7 +3,7 @@ import os
 training = sys.argv[1]
 #f_op = open(training,'r')
 ftraining=open(sys.argv[2],'w+')
-for eachfile in os.listdir(training):
+for eachfile in sorted(os.listdir(training)):
 	#if os.path.splitext(eachfile)[0] == 'SPAM':
 	ftraining.write(eachfile.split('.')[0]+ ' ')
 	#filecontents = eachfile.readlines().split()
