@@ -1,0 +1,3 @@
+Changes: Revised spam.svm.out and sentiment.svm.out.
+
+Reason : My output was incorrectly ordered and I got a randomly shuffled output in previous versions for both my spam.svm.out and sentiment.svm.out.
